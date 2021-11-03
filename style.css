@@ -2,3 +2,66 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: none;
+    background-color: steelblue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+#divul{
+    display: inline-block;
+    font-size: 1.5rem; 
+}
+#divul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#divul li a:hover {
+    color:orangered;
+    font-size: 110%;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: none;
+}
+.editar{
+    text-decoration: underline;
+    margin: 8px;
+}
+
+#titulo, #artista, #capa, select#genero, select#nota{
+    background-color: lavender;
+    border-radius: 2rem;
+}
+div.card{
+    padding: 25px;
+    margin: 15px;
+    background-color: gainsboro;
+}
+
+ section#inscrever {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .btn-success{
+      margin: 10px;
+  }
+  footer{
+      padding: 15px;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+  }
+  footer p a img{
+      width: 70px;
+  }
+  footer p a img:hover{
+     
+    width: 85px;
+}
